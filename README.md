@@ -30,3 +30,39 @@ Out of the 50 datasets of product categories available to chose from, I chose to
 6. I linked Google Colab to the PGAdmin server and loaded in all the previously shown tables. As the following image shows.
 
 ![image](https://user-images.githubusercontent.com/46943357/208265919-79ed542f-0ea9-4f77-9e96-89e783754024.png)
+
+# Deliverable 2
+
+To start off with, I filtered the available reviews to just those with more than 20 votes, and those which were more than 50% "helpful."
+
+Reviews with 20+ Votes:
+![image](https://user-images.githubusercontent.com/46943357/208266018-95c136f9-64e6-4866-8498-01ec9144e078.png)
+
+The 50% that was helpful:
+![image](https://user-images.githubusercontent.com/46943357/208266043-51d5899f-3fab-45e5-9870-0cf96fcc2e61.png)
+
+Calculations were made from this filtered dataset to address the following questions:
+
+* How many paid reviews were there? 94
+![image](https://user-images.githubusercontent.com/46943357/208266160-5d9ac9bd-5dfb-4dbc-b697-7a1fc0155154.png)
+
+* How many unpaid reviews were there? 40,471
+![image](https://user-images.githubusercontent.com/46943357/208266179-8845b407-294c-4321-a01e-330da4f02f37.png)
+
+* How many paid five star reviews? 48
+![image](https://user-images.githubusercontent.com/46943357/208266200-1d3d9fb3-2cdd-4304-95bb-68cf157078dc.png)
+
+* How many unpaid five star reviews? 15,663
+![image](https://user-images.githubusercontent.com/46943357/208266227-4fd2c6a8-ab8a-401f-9ce2-5685fde41441.png)
+
+* The percentage of Paid 5 star reviews 51.063%
+![image](https://user-images.githubusercontent.com/46943357/208266272-49dc4822-26f4-485e-bf19-78c62ca00466.png)
+
+* The percentage of Unpaid 5 star reviews 38.701%
+![image](https://user-images.githubusercontent.com/46943357/208266295-125a41f6-d611-414b-a7dd-dd09646513ee.png)
+
+## Summary
+
+51% of the reviews in the Vine program were 5 stars reviews whereas the percentage in the non-Vine reviews is only 39%. This describes a positivity bias for reviews in the Vine program.
+Additionally we could analyse the statistical distribution (mean, median and mode) of the star rating for the Vine and non-Vine reviews.
+
